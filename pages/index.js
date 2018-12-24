@@ -100,7 +100,7 @@ export default class extends React.Component {
         let qProps = questions[nextIndex];
         Content = (
             <div>
-              <h2>Question {nextIndex + 1} of {questions.length + 1}</h2>
+              <h2>Question {nextIndex + 1} of {questions.length}</h2>
               <Question {...qProps} onAnswer={this.onAnswer}/>
             </div>
         )
@@ -168,7 +168,7 @@ html {
 }
 
 .choice {
-  color: AA4F00;
+  color: #0049FF;
   font-weight: bold;
 }
 
